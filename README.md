@@ -23,8 +23,8 @@ datasets.
 
 ## Screenshots
 
-| ![](https://github.com/vincent-zwu/construction-dataset/raw/main/screenshots/luo2020.png) | ![](https://github.com/vincent-zwu/construction-dataset/raw/main/screenshots/bang2020.png) |
-|-------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------|
-| Luo et al. (2020)                                                                         | Bang and Kim (2020)                                                                        |
-| ![](https://github.com/vincent-zwu/construction-dataset/raw/main/screenshots/ACID.png)    | ![](https://github.com/vincent-zwu/construction-dataset/raw/main/screenshots/MOCS.png)     |
-| ACID - Xiao and Kang (2021)                                                               | MOCS - An et al. (2021)                                                                    |
+| ![](/screenshots/luo2020.png?raw=true) | ![](/screenshots/bang2020.png?raw=true) |
+|----------------------------------------|-----------------------------------------|
+| Luo et al. (2020)                      | Bang and Kim (2020)                     |
+| ![](screenshots/ACID.png?raw=true)     | ![](/screenshots/MOCS.png?raw=true)     |
+| ACID - Xiao and Kang (2021)            | MOCS - An et al. (2021)                 |
