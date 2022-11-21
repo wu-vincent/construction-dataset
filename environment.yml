@@ -1,0 +1,16 @@
+name: construction-dataset
+
+dependencies:
+  - python=3.10
+  - numpy
+  - matplotlib
+  - pandas
+  - pytorch
+  - pip
+  - pip:
+      - cloudpickle
+      - dash
+      - dash_bootstrap_components
+      - torchvision
+      - pytest
+      - pytest-cov
