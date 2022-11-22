@@ -8,6 +8,7 @@ dependencies:
   - pytorch
   - pip
   - pip:
+      - black[d]
       - cloudpickle
       - dash
       - dash_bootstrap_components

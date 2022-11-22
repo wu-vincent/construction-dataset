@@ -11,8 +11,8 @@ class Luo2020(VisionDataset):
     <https://doi.org/10.1016/j.autcon.2019.103016>`_ Dataset.
 
     Args:
-        root (string): Root directory of dataset where ``luo2020/images/``
-            and  ``luo2020/labels/`` exist.
+        root (string): Root directory of dataset where ``luo2020/equipment_pose_dataset/images/``
+            and  ``luo2020/equipment_pose_dataset/labels/`` exist.
         transforms (callable, optional): A function/transforms that takes in
             an image and a label and returns the transformed versions of both.
         transform (callable, optional): A function/transform that  takes in an PIL image
@@ -60,8 +60,8 @@ class Luo2020(VisionDataset):
 
     @property
     def images_dir(self):
-        return os.path.join(self.root, self.__class__.__name__.lower(), "images")
+        return os.path.join(self.root, self.__class__.__name__.lower(), "equipment_pose_dataset", "images")
 
     @property
     def labels_dir(self):
-        return os.path.join(self.root, self.__class__.__name__.lower(), "labels")
+        return os.path.join(self.root, self.__class__.__name__.lower(), "equipment_pose_dataset", "labels")
